@@ -30,3 +30,10 @@ To generate css, js and min versions into `dist` directory simply run
 ```bash
 grunt
 ```
+
+## Example
+
+```
+    open the `example\index.html` in your favourite browser.
+```
+
