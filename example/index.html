@@ -1,21 +1,35 @@
 <html>
-    <head>
-        <title>D3 - floorplan example</title>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
-        <script src="../d3.floorplan.min.js"></script>
-        <script src="../src/floorplan.js"></script>
-        <script src="../src/heatmap.js"></script>
-        <script src="../src/imagelayer.js"></script>
-        <script src="../src/overlays.js"></script>
-        <script src="../src/pathplot.js"></script>
-        <script src="../src/vectorfield.js"></script>
-        <link rel="stylesheet" type="text/css" href="..\d3.floorplan.css" />
-    </head>
-    <body>
-        <div id="demo">
-        <script src="map.js"></script>
-        <link rel="stylesheet" type="text/css" src="style.css" />
-    </body>
+<head>
+  <title>D3 - floorplan example</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+  <script src="../dist/d3.floorplan.js"></script>
+  <!--<script src="../src/floorplan.js"></script>-->
+  <!--<script src="../src/heatmap.js"></script>-->
+  <!--<script src="../src/imagelayer.js"></script>-->
+  <!--<script src="../src/overlays.js"></script>-->
+  <!--<script src="../src/pathplot.js"></script>-->
+  <!--<script src="../src/vectorfield.js"></script>-->
+  <link rel="stylesheet" type="text/css" href="../d3.floorplan.css"/>
+</head>
+<body>
+<h1><a href="https://dciarletta.github.io/d3-floorplan/">Floor Plan
+  <small>(0.1.0)</small>
+</a></h1>
+<p>A layered map <a href="https://bost.ocks.org/mike/chart/">reusable chart</a> suitable for small area, local coordinate systems like building floor plans.
+  There is no tiling or projection capabilities, just simple X-Y scaled coordinates, pan-zoom functionality, and a set of layers for data visualization over the region.</p>
+<p style="text-align: right">Layer Controls &darr;</p>
+<h3>Example</h3>
+<p>This basic example demonstrates how to create and assign data for each layer.
+  Interact with the map by zooming and then panning or access the different layers by
+  turning off higher layers in the map layer controls in the upper right.</p>
+<p>
+  <small><i>Written by</i> David Ciarletta</small>
+</p>
+<div id="demo">
+  <script src="map.js"></script>
+  <link rel="stylesheet" type="text/css" src="style.css"/>
+</div>
+</body>
 </html>
